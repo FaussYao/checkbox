@@ -12,7 +12,7 @@ export const CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR: any = {
 const noop = () => {};
 
 @Component({
-  selector: 'app-checkbox',
+  selector: 'checkbox',
   templateUrl: 'checkbox.component.html',
   styleUrls: ['./checkbox.component.css'],
   providers: [CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR]
