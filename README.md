@@ -24,3 +24,4 @@ disable: boolean = false;
            [label]="title">
  </checkbox>
 ```
+![alt check](https://image.ibb.co/jbnUUc/check.jpg)
