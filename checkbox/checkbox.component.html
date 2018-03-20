@@ -1,0 +1,4 @@
+<div class="checkbox" [ngClass]="{'checkbox-disabled' : disableValue}" >
+    <input type="checkbox" id="check" [(ngModel)]="value" (blur)="onBlur()" [disabled]="disableValue" [value]>
+    <label for="check"><span></span>{{label}}</label>
+</div>
